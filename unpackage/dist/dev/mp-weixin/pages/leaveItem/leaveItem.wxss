@@ -1,0 +1,29 @@
+
+image {
+	width: 90rpx;
+	height: 90rpx;
+}
+.content {
+	margin-bottom: 100rpx;
+}
+.content .item {
+	display: flex;
+	font-size: 26rpx;
+	padding: 10rpx 0;
+	border-bottom: 3rpx solid #dcdcdc;
+}
+.content .item:nth-child(3) .right {
+	padding: 0 0 0 20rpx;
+}
+.item .left {
+	flex: 1;
+	color: #27ae62;
+	padding: 28rpx 0;
+	text-align: right;
+}
+.item .right {
+	flex: 2;
+	color: #737373;
+	padding: 28rpx 0 28rpx 20rpx;
+}
+

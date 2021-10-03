@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/timetable/timetable",
+    "pages/news/news",
+    "pages/contacts/contacts",
+    "pages/album/album",
+    "pages/leaveList/leaveList",
+    "pages/leaveItem/leaveItem",
+    "pages/increase/increase"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#27ae62",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#aeb1b8",
+    "selectedColor": "#27ae62",
+    "borderStyle": "black",
+    "backgroundColor": "#43464b",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-h.png",
+        "text": "校内"
+      },
+      {
+        "pagePath": "pages/timetable/timetable",
+        "iconPath": "static/icon/timetable.png",
+        "selectedIconPath": "static/icon/timetable-h.png",
+        "text": "课表"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/news-h.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/contacts/contacts",
+        "iconPath": "static/icon/contacts.png",
+        "selectedIconPath": "static/icon/contacts-h.png",
+        "text": "联系人"
+      },
+      {
+        "pagePath": "pages/album/album",
+        "iconPath": "static/icon/album.png",
+        "selectedIconPath": "static/icon/album-h.png",
+        "text": "相册"
+      }
+    ]
+  },
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['toLeaveList',['$event']]]]]}}" class="content" bindtap="__e"><image class="image" src="../../static/img/home.jpg" mode="widthFix"></image></view>

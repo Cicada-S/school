@@ -1,0 +1,123 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "校内",
+				"navigationBarBackgroundColor":"#27ae62"
+			}
+		}
+	    ,{
+            "path" : "pages/timetable/timetable",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contacts/contacts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系人",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/album/album",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "相册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/leaveList/leaveList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "学生请假(学生申请)",
+                "enablePullDownRefresh": true
+				// "navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/leaveItem/leaveItem",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "学生请假(学生申请)",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/increase/increase",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "请假申请",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#27ae62",
+		"backgroundColor": "#fff"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"tabBar": {
+	    "color": "#aeb1b8",
+	    "selectedColor": "#27ae62",
+	    "borderStyle": "black",
+	    "backgroundColor": "#43464b",
+	    "list": [{
+	        "pagePath": "pages/home/index",
+	        "iconPath": "static/icon/home.png",
+	        "selectedIconPath": "static/icon/home-h.png",
+	        "text": "校内"
+	    }, {
+	        "pagePath": "pages/timetable/timetable",
+	        "iconPath": "static/icon/timetable.png",
+	        "selectedIconPath": "static/icon/timetable-h.png",
+	        "text": "课表"
+	    }, {
+	        "pagePath": "pages/news/news",
+	        "iconPath": "static/icon/news.png",
+	        "selectedIconPath": "static/icon/news-h.png",
+	        "text": "消息"
+	    }, {
+	        "pagePath": "pages/contacts/contacts",
+	        "iconPath": "static/icon/contacts.png",
+	        "selectedIconPath": "static/icon/contacts-h.png",
+	        "text": "联系人"
+	    }, {
+	        "pagePath": "pages/album/album",
+	        "iconPath": "static/icon/album.png",
+	        "selectedIconPath": "static/icon/album-h.png",
+	        "text": "相册"
+	    }]
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/leaveList/leaveList",
+          "pathName": "pages/leaveList/leaveList",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/increase/increase",
+          "pathName": "pages/increase/increase",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

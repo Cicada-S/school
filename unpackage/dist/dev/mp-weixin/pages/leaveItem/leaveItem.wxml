@@ -1,0 +1,1 @@
+<view class="content"><block wx:for="{{infoListData}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="item"><view class="left">{{''+(index+1)+"、"+item.key+''}}</view><view class="right"><block wx:if="{{index==2}}"><image src="{{item.value}}" mode></image></block><block wx:else><text>{{item.value}}</text></block></view></view></block></view>
